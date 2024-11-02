@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lumbini - Sacred Pilgrimage</title>
+    <style>
+        /* Global Styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    color: #444;
+    background-color: #f5f5f5;
+}
+
+h1, h2 {
+    color: #2e7d32;
+}
+
+p {
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto 1em auto;
+}
+
+/* Parallax Hero Section */
+.hero {
+    background: url('https://th.bing.com/th/id/OIP.AtDWdCLCK9dJu-Lp8ytevAHaE9?w=284&h=190&c=7&r=0&o=5&pid=1.7') center/cover fixed no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.hero-overlay {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 2em;
+    color: white;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    margin: 0.2em;
+}
+
+.hero p {
+    font-size: 1.2em;
+}
+
+/* Navigation */
+nav ul {
+    list-style-type: none;
+    background: #333;
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #8bc34a;
+}
+
+/* Content Sections */
+.content-section {
+    padding: 2em;
+    text-align: center;
+    background-color: #fff;
+}
+
+.highlight-image {
+    width: 80%;
+    margin: 1em auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Sites Section Cards */
+.sites .site-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5em;
+}
+
+.card {
+    background: #f0f0f0;
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.card h3 {
+    margin: 1em 0;
+    color: #2e7d32;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 1.5em 0;
+}
+
+    </style>
+</head>
+<body>
+
+    <!-- Hero Section with Parallax Effect -->
+    <section class="hero">
+        <div class="hero-overlay">
+            <h1>Welcome to Lumbini</h1>
+            <p>The Peaceful Birthplace of Lord Buddha</p>
+        </div>
+    </section>
+
+    <!-- Navigation -->
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#sites">Sacred Sites</a></li>
+            <li><a href="#culture">Culture</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- About Section -->
+    <section id="about" class="content-section">
+        <h2>About Lumbini</h2>
+        <p>Lumbini, located in the Rupandehi district of Nepal, is the birthplace of Siddhartha Gautama, who later became the Buddha. It is a UNESCO World Heritage Site, attracting millions of visitors for its serene environment and spiritual significance.</p>
+        <img src="lumbini.jpg" alt="Maya Devi Temple" class="highlight-image">
+    </section>
+
+    <!-- Sacred Sites Section -->
+    <section id="sites" class="content-section sites">
+        <h2>Must-Visit Sacred Sites</h2>
+        <div class="site-cards">
+            <div class="card">
+                <img src="temple.jpg" alt="Maya Devi Temple">
+                <h3>Maya Devi Temple</h3>
+                <p>The central shrine marking the birthplace of Buddha.</p>
+            </div>
+            <div class="card">
+                <img src="peace.jpg" alt="Peace Pagoda">
+                <h3>Peace Pagoda</h3>
+                <p>A serene pagoda symbolizing peace and unity.</p>
+            </div>
+            <div class="card">
+                <img src="pillar.jpg" alt="Ashoka Pillar">
+                <h3>Ashoka Pillar</h3>
+                <p>Built by Emperor Ashoka in 249 BC to mark this sacred place.</p>
+            </div>
+            <div class="card">
+                <img src="zone.jpg" alt="Monastic Zone">
+                <h3>Monastic Zone</h3>
+                <p>A collection of monasteries built by Buddhist communities worldwide.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Culture Section -->
+    <section id="culture" class="content-section">
+        <h2>Buddhist Culture & Heritage</h2>
+        <p>Lumbini is not just a place; it’s an experience. From tranquil gardens to architectural marvels, it embodies the essence of Buddhist culture. Experience meditation, local festivals, and the spirit of peace and compassion.</p>
+        <img src="festival.jpg" alt="Cultural Festival in Lumbini" class="highlight-image">
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <h2>Contact Us</h2>
+        <p>Lumbini Development Trust</p>
+        <p>Email: info@lumbinitrust.com | Phone: +977 71 123456</p>
+        <p>Follow us on social media for updates and pilgrimage information.</p>
+    </footer>
+
+</body>
+</html>
